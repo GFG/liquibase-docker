@@ -18,3 +18,5 @@ COPY liquibase.sh /usr/local/bin/liquibase
 VOLUME ["/liquibase"]
 
 WORKDIR /liquibase
+
+ENTRYPOINT ["liquibase"]
